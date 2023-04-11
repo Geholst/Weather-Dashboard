@@ -1,0 +1,12 @@
+main {
+    display: flex;
+}
+
+header {
+    display: flex;
+    background-color: darkslateblue;
+    justify-content: center;
+    color: wheat;
+    padding: 30px;
+    font-size: 30px;
+}
