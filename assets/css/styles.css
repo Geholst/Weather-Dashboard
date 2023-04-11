@@ -4,9 +4,9 @@ main {
 
 header {
     display: flex;
-    background-color: darkslateblue;
     justify-content: center;
     color: wheat;
     padding: 30px;
     font-size: 30px;
+    background: linear-gradient(to right, darkslateblue, cornflowerblue);
 }
