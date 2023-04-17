@@ -14,3 +14,19 @@ header {
 #Search-box {
     background-color: burlywood;
 }
+
+.five-day-forecast {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.outlook {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
