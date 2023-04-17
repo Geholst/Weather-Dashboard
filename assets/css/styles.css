@@ -10,3 +10,7 @@ header {
     font-size: 30px;
     background: linear-gradient(to right, darkslateblue, cornflowerblue);
 }
+
+#Search-box {
+    background-color: burlywood;
+}

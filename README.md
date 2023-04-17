@@ -1,13 +1,7 @@
 # Weather-Dashboard
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+    I made this site so people that want to know weather data about a city can look it up and see the temp, wind speed, and humidity. This project was a fun way to learn how to get and use data from a third party API.
 
 ## Table of Contents 
 
@@ -17,12 +11,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+    When the page laods you are presented with a searchbar that you can input what city you want to see weather data for. The page then loads weather data for that city and presents you with a 5 day weather forecast. 
 
 ## Credits
 
