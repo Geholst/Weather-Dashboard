@@ -32,6 +32,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 #### I used these resources
 * https://www.youtube.com/watch?v=nGVoHEZojiQ&t=1062s 
-
+* https://www.w3schools.com/css/css3_gradients.asp
 ## License
 Refer to license in repo
