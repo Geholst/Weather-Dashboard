@@ -1,6 +1,7 @@
 # Weather-Dashboard
 
 ## Description
+    
     I made this site so people that want to know weather data about a city can look it up and see the temp, wind speed, and humidity. This project was a fun way to learn how to get and use data from a third party API.
 
 ## Table of Contents 
