@@ -17,16 +17,17 @@
 
     <main> 
         <!-- Search button segment -->
-        <section id="Search-box">
-            <div>
-                <h2>Search for a city</h2>
-                <input class="city" >
-                <button id="Search-btn">Search</button>
-            <div>
-                <ul id="search-history"></ul>
+        <section class="search-box">
+            <div class="search-area">
+              <h3>Search for a city</h3>
+              <label class="form-label"></label>
+              <input class="city" placeholder="Type to search..." />
+              <button type="submit" class="btn btn-danger" id="search-btn" value="submit">Submit</button>
+                <div class="city-history-box">
+                    <ul class="city-list"></ul>
+                </div>
             </div>
-            </div>
-        </section>
+          </section>
       <!-- Displays City searched for -->
       <section class="result-section">
         <div class="current-weather">
@@ -48,54 +49,52 @@
             <div class="five-day-forecast">
                 <h3>Five Day Forecast:</h3>
                 <div class="outlook">
-                    <div id="card-1">
+                    <div id="card1">                     
                         <div class="card border-success">
-                            <h6 class="card-date">Date:</h6>
-                            <img src="" class="card-icon" alt="Weather-icon">
-                            <p class="card-temp">Temp:</p>
-                            <p class="card-humidity">Humidity:</p>
-                            <p class="card-wind">Wind:</p>
-                        </div>
-                    </div>
+                            <h5 class="card-date">Date</h5>
+                            <img src="" class="card-icon" alt="Weather icon">
+                            <p class="card-temp">Temp</p>
+                            <p class="card-wind">Wind</p>
+                            <p class="card-humidity">Humidity</p>
+                          </div>
+                        </div>  
 
-                    <div id="card-2">
-                        <div class="card border-success">
-                            <h6 class="card-date">Date:</h6>
-                            <img src="" class="card-icon" alt="Weather-icon">
-                            <p class="card-temp">Temp:</p>
-                            <p class="card-humidity">Humidity:</p>
-                            <p class="card-wind">Wind:</p>
-                        </div>
-                    </div>
+                        <div id="card2">
+                            <div class="card border-success">
+                              <h5 class="card-date">Date</h5>
+                              <img src="" class="card-icon" alt="Weather icon">
+                              <p class="card-temp">Temp</p>
+                              <p class="card-wind">Wind</p>
+                              <p class="card-humidity">Humidity</p>
+                            </div>
+                          </div> 
 
-                    <div id="card-3">
-                        <div class="card border-success">
-                            <h6 class="card-date">Date:</h6>
-                            <img src="" class="card-icon" alt="Weather-icon">
-                            <p class="card-temp">Temp:</p>
-                            <p class="card-humidity">Humidity:</p>
-                            <p class="card-wind">Wind:</p>
-                        </div>
-                    </div>
-
-                    <div id="card-4">
-                        <div class="card border-success">
-                            <h6 class="card-date">Date:</h6>
-                            <img src="" class="card-icon" alt="Weather-icon">
-                            <p class="card-temp">Temp:</p>
-                            <p class="card-humidity">Humidity:</p>
-                            <p class="card-wind">Wind:</p>
-                        </div>
-                    </div>
-
-                    <div id="card-5">
-                        <div class="card border-success">
-                            <h6 class="card-date">Date:</h6>
-                            <img src="" class="card-icon" alt="Weather-icon">
-                            <p class="card-temp">Temp:</p>
-                            <p class="card-humidity">Humidity:</p>
-                            <p class="card-wind">Wind:</p>
-                        </div>
+                          <div id="card3">                        
+                            <div class="card border-success">
+                              <h5 class="card-date">Date</h5>
+                              <img src="" class="card-icon" alt="Weather icon">
+                              <p class="card-temp">Temp</p>
+                              <p class="card-wind">Wind</p>
+                              <p class="card-humidity">Humidity</p>
+                            </div>
+                          </div> 
+                          <div id="card4">                       
+                            <div class="card border-success">
+                              <h5 class="card-date">Date</h5>
+                              <img src="" class="card-icon" alt="Weather icon">
+                              <p class="card-temp">Temp</p>
+                              <p class="card-wind">Wind</p>
+                              <p class="card-humidity">Humidity</p>
+                            </div>
+                          </div> 
+                          <div id="card5">                        
+                            <div class="card border-success">
+                                <h5 class="card-date">Date</h5>
+                                <img src="" class="card-icon" alt="Weather icon">
+                                <p class="card-temp">Temp</p>
+                                <p class="card-wind">Wind</p>
+                                <p class="card-humidity">Humidity</p>
+                              </div>
                     </div>
                 </div>
             </div>

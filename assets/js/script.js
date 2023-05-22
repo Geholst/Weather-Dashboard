@@ -85,8 +85,7 @@ $(".btn").on("click", function (event) {
   cityArr.push(cityName);
   localStorage.setItem('city', JSON.stringify(cityArr));
 
-// This function is for on screen load, the last searched history stored in local should display on load
- 
+// Last serch should be on load
 });
 function renderBtn(){
   if (cityArr.length > 0) {
